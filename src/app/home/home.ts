@@ -31,7 +31,7 @@ export class Home {
   data = { value: '' };
   // TypeScript public modifiers
   constructor(public title: Title) {
-
+    console.log('Hello from nca!');
   }
 
   ngOnInit() {
